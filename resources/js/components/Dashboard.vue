@@ -1,5 +1,5 @@
 <template>
-    <Navigation> </Navigation>
+   
 </template>
 <script>
 import Navigation from './Navigation';

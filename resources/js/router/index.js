@@ -4,16 +4,17 @@ import Dashboard from '../components/Dashboard'
 import Navigation from '../components/Navigation'
 import EmployeeIndex from '../components/employees/EmployeeIndex'
 
+let proj = '/jlr_hr_kendo/public';
 const routes = [
     
     {
-        path : '/jlr_hr/public/dashboard',
+        path : `${proj}/dashboard`,
         name : 'dashboard',
         component : Dashboard
     },
     {
-        path : '/employees',
-        name : 'employee',
+        path : `${proj}/employees`,
+        name : 'employees',
         component : EmployeeIndex,
     }
 

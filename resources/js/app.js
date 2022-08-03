@@ -19,6 +19,7 @@ import router from './router';
 createApp({
     components : {
         //Dashboard,
+        Navigation
         
     }
 }).use(router).mount('#app')
